@@ -1,0 +1,46 @@
+.hover-border {
+    
+    
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .hover-border:hover {
+    border-bottom: 2px solid #333;
+    
+  }
+ .hover-border p{
+    font-weight:400;
+    transition: font-weight 0.3s ease;
+ }
+ .hover-border p:hover{
+    font-weight: 600;
+   
+ }
+
+.android{
+   max-width: 600px;
+   width:100%;
+   margin:auto; 
+   display:flex;
+   align-items: center;
+}
+.post{
+    font-size: 20px;
+    margin-left: 10px;
+}
+@media ( min-width:761px)
+{
+    .android{
+        display:none;
+    }
+    
+}
+@media (max-width:760px){
+    .android{
+        display:flex;
+    }
+    .desk{
+        display:none;
+    }
+}

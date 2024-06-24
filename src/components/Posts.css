@@ -1,0 +1,39 @@
+@media (max-width:770px){
+    #location-search{
+        display:none;
+    }
+    #share-mobile{
+        display:flex;
+    }
+    #share-desktop{
+        display:none;
+    }
+    #dropdownMenuButton1{
+        padding-bottom: 52px;
+    }
+   
+}
+@media (min-width:771px){
+    #share-mobile{
+        display:none;
+    }
+    #share-desktop{
+        display:flex;
+    }
+    
+}
+
+.dropdown .btn{
+    padding-bottom: 31px;
+
+}
+
+@media (min-width:770px ) and (max-width:1110px){
+    #location-search{
+        display:none;
+    }
+    #post{
+       min-width:800px;
+       width:100%;
+    }
+}

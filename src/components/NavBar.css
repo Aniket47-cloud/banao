@@ -1,0 +1,45 @@
+#desktop {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 10px;
+    align-items: center;
+
+}
+
+
+
+@media (max-width:770px) {
+    #desktop {
+        display: none;
+    }
+
+    #mobil {
+        display: flex;
+        max-width: 770px;
+        
+        width: 100%;
+        justify-content: end;
+        align-items: center;
+
+
+    }
+}
+
+
+@media (min-width:770px) {
+    #mobil {
+        display: none;
+    }
+    #search{
+        display:flex;
+    }
+}
+@media(min-width:770px)and (max-width:1110px){
+    #search{
+        display:none;
+    }
+
+}
+
